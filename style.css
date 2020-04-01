@@ -13,6 +13,8 @@ body {
 
 header {
     background-color: #333333;
+    top: 6%;
+    font-weight: bold;
 }
 
 h1 {
@@ -26,6 +28,7 @@ h1 {
 h2 {
     font-size: 24px;
     margin: 20px;
+    font-weight: bold;
 }
 
 .container {
@@ -57,4 +60,10 @@ p {
 
 a {
     color: #d21034;
+}
+
+ul {
+    list-style: circle;
+    line-height: 1.5em;
+    text-indent: 50px;
 }
