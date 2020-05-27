@@ -1,36 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Student Bio</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>    
 
-    <body>
-           
-        <header>
-            <h1>Student Bio</h1>
-        </header>
-       
-        <div class="container">
+<head>
 
-            <Section id="main-bio">
-                <h2 class="heading-1">Ha Phan</h2>
-                <img id="bio-image" src="./cat.jfif" alt="Ha Phan" width="200px" height="200px"/>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>   
-            </Section>
+  <meta charset="UTF-8">
 
-            <Section id="contact-bio">
-                <h2>Contact Info</h2>
-                <ul>
-                    <li><strong>Email: </strong><a href="mailto:haphan64@outlook.com">haphan64@outlook.com</a></li>
-                    <li><strong>Github: </strong><a href="https://github.com/haphan64">haphan64</a></li>
-                    <li><strong>Portfolio: </strong><a href="https://haphan64.github.io/Week01-Homework/">Week01-Homework</a></li>
-                </ul>
-            </Section>
+  <title>Ha Phan Portfolio</title>
 
-       </div> 
-      
-    </body>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class = "container-lg">
+            <a class="navbar-brand" href="#">Ha Phan</a>
+         
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                       
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class = "container-lg py-4">
+            <div class = "row">
+                <div class = "col-lg-9">
+                    <div class = "content-box">
+                        <h1>About Me</h1>
+                        <hr>
+                        <div class="content-detail">
+                            <img class="img-fluid" src="assets/profilepic.jpg" alt="headshot"/>
+                            <p>Ha Phan is a Senior Manager in CSC Corptax Professional Services group.  Ha has been with the company since 2009.  She has been involved in multiple implementation projects utilizing wide range of Corptax products such as Corptax Provision, Tax Contingency (formerly FIN48), and Corptax Office. Ha graduated from Manchester University, Indiana with bachelor’s degrees in Accounting and Finance.  She is also a graduate of Kellstadt Graduate School of Business - DePaul University, Illinois with a Master of Accountancy.  Ha iscurrently a Certified Corptax Professional in Provision and a Registered CPA inthe state of Illinois.</p>
+                        </div>
+                       
+                        <hr>
+
+                        <div>
+                            <h4>Contact Info</h4>
+                                <ul>
+                                    <li>Email: </strong><a href="mailto:haphan64@outlook.com">haphan64@outlook.com</a></li>
+                                    <li>Github: </strong><a href="https://github.com/haphan64">haphan64</a></li>
+                                    <li>LinkedIn: </strong><a href="https://www.linkedin.com/in/ha-phan-1406b532/">Ha Phan</a></li>
+                                    <li>Resume: </strong><a href="assets/resume.pdf">Ha Phan Resume</a></li>                                          
+                                </ul>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        &copy; Copyright
+    </footer>
+
+</body>
+
 </html>

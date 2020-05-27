@@ -1,0 +1,184 @@
+/* Body */
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    background-color: #09c3ba;
+    padding: 10px 20px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.nav-item {
+    border-right: 1px solid #ced4da;
+}
+
+.nav-item:last-child  {
+    border-right: none;
+}
+
+
+.navbar-nav .nav-link {
+    padding: 0 .5rem;
+}
+
+@media (min-width:576px) {
+    .content-box img {
+        width: 200px;
+    }
+}
+@media (max-width:991px) {
+    /* .navbar .container-lg,
+    .navbar-brand {
+        display: block;
+    } */
+
+    /* .navbar-brand {
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }*/
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        padding: 10px;
+    } 
+    
+}
+
+@media (max-width:575px) {
+    .navbar .container-lg,
+    .navbar-brand {
+        display: block;
+    }
+
+    .navbar-brand {
+        margin-right: -1rem;
+        margin-left: -1rem;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+
+}
+
+/* Main */
+main {
+    background-color: rgb(235, 235, 235);
+}
+
+main .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content-box {
+    background-color: #FFF;
+    padding: 20px;
+    overflow: auto;
+}
+
+.content-box h1, h4 {
+    color: #09c3ba;
+}
+
+hr {
+    border-color: #ced4da;
+    height: 2px;
+    background: #ced4da;
+    margin-bottom: 25px;
+}
+.content-box img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.content-detail {
+    overflow: auto;
+}
+
+
+
+/* portfolio */
+.portimg .img-fluid {
+    width:100%;
+}
+
+.portimgtxtcontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.portimgtxt {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    background-color: #09c3ba;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+portp {
+    margin: 0 px !important;
+}
+
+/* contact */
+.btn-primary {
+    background-color:#09c3ba ;
+    border-color: #09c3ba;
+    border-radius: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: gray;
+    border-top: 5px #09c3ba solid;
+    font-size: 10px;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
